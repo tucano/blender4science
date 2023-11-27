@@ -120,7 +120,27 @@ Now that each part has his material let's merge with `CTRL-J`
 
 Now that we have a single mesh we can apply modifiers!!!!
 
-Add a wave
+Add a wave for example and press play.
+
+Remove wave
+
+Animation:
+
+`I` to insert rotation keyframe,
+
+go at fram 100, select object molecule and rotate 360 with `RZ360` and left click
+
+`I` to insert another keyframe
+
+PLAY
+
+Add a second fast rotation 20 framse from 100 to 120
+
+Go to output panel set frames to 150, set format to FFmpeg video
+
+REnder animation from menu (or `CTRL-F12`)
+
+
 
 
 
