@@ -22,7 +22,7 @@ Setup material with nodes
  * New Material TExt Mtarial
  * Shading layout and noise texture and color ramp
  
- Make animation transition X + scale bezier curve
+ Make animation transition X + scale bezier curve (change pivot for bezier with cursor)
 
  
 
