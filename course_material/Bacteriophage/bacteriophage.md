@@ -88,3 +88,7 @@ NEW FILE: COMPOSITING
 
  * https://www.youtube.com/watch?v=MQ4SKUZ2uGo
  
+
+### COLORIZE
+
+https://www.google.com/search?q=blender+transparent+glass&oq=blender+transparent+glass&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMgYICBBFGEDSAQg0ODg2ajBqMagCALACAA&sourceid=chrome&ie=UTF-8#kpvalbx=_zZZwZf31M8rxkgWZ3KqYDw_28
