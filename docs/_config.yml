@@ -36,7 +36,7 @@ favicon_ico: "/assets/images/favicon.ico"
 # Build settings
 #theme: jekyll-theme-hacker
 #theme: just-the-docs
-remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.7.0
 plugins:
   - jekyll-sitemap
 
@@ -71,7 +71,7 @@ search:
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "9.1.3"
+  version: "10.6.1"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
