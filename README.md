@@ -32,10 +32,6 @@ Qui materiali vari
 
 Roba da sistemare
 
-## HOW TO FIX A BROKEN UI
-
-https://www.youtube.com/watch?v=HnmYMvYyHkg
-
 
 ## TODO (Molecular Nodes)
 

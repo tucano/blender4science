@@ -26,19 +26,16 @@ baseurl: "/blender_4_science" # the subpath of your site, e.g. /blog
 url: "https://tucano.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  tucano
 
+# Build settings
+remote_theme: just-the-docs/just-the-docs@v0.7.0
+plugins:
+  - jekyll-sitemap
+
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "/assets/images/favicon.ico"
 
 # Set a path/url to a logo that will be displayed instead of the title
 # logo: "/assets/images/AssetLibrary_CGFigures.png"
-
-
-# Build settings
-#theme: jekyll-theme-hacker
-#theme: just-the-docs
-remote_theme: just-the-docs/just-the-docs@v0.7.0
-plugins:
-  - jekyll-sitemap
 
 # Enable or disable the site search
 # Supports true (default) or false
@@ -72,6 +69,9 @@ mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "10.6.1"
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,3 +1,8 @@
+---
+name: Jane Doe
+position: Developer
+---
+
 # Theme sandbox
 
 ## Mermaid
