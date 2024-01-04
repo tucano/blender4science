@@ -18,20 +18,59 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-
 email: davide.rambaldi@gmail.com
 title: Blender 4 Science
 description: >- # this means to ignore newlines until "baseurl:"
   Blender for science: tutorials, resources and workflows.
 baseurl: "/blender_4_science" # the subpath of your site, e.g. /blog
 url: "https://tucano.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: tucanourbano
 github_username:  tucano
 
+# Set a path/url to a favicon that will be displayed by the browser
+favicon_ico: "/assets/images/favicon.ico"
+
+# Set a path/url to a logo that will be displayed instead of the title
+# logo: "/assets/images/AssetLibrary_CGFigures.png"
+
+
 # Build settings
-theme: jekyll-theme-hacker
+#theme: jekyll-theme-hacker
+theme: just-the-docs
 plugins:
   - jekyll-sitemap
+
+# Enable or disable the site search
+# Supports true (default) or false
+search_enabled: true
+
+search:
+  # Split pages into sections that can be searched individually
+  # Supports 1 - 6, default: 2
+  heading_level: 2
+  # Maximum amount of previews per search result
+  # Default: 3
+  previews: 3
+  # Maximum amount of words to display before a matched word in the preview
+  # Default: 5
+  preview_words_before: 5
+  # Maximum amount of words to display after a matched word in the preview
+  # Default: 10
+  preview_words_after: 10
+  # Set the search token separator
+  # Default: /[\s\-/]+/
+  # Example: enable support for hyphenated search words
+  tokenizer_separator: /[\s/]+/
+  # Display the relative url in search results
+  # Supports true (default) or false
+  rel_url: true
+  # Enable or disable the search button that appears in the bottom right corner of every page
+  # Supports true or false (default)
+  button: false
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "10.6.1"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

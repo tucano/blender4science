@@ -3,13 +3,13 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 reel_youtubeId: eoY1Mc70uTo
 asset_library_youtubeId: 4TC1WjKiMwQ
-layout: default_with_toc
+layout: default
 ---
 
 
 
 
-# Blender 3D for scientists
+# Blender for scientists
 
 ## INTRODUCTION
 
@@ -50,14 +50,14 @@ There is also a huge asset library with interesting resources:
 To install the library in your Blender instance:
 
 1. Download and unzip the library
-2. Move the library somewhere (in OSX I can suggest: ``~/Documents/Blender/``)
+2. Move the library somewhere (in OSX I can suggest: `~/Documents/Blender/`)
 3. Open Blender
-4. Go to Edit --> ``Preferences`` --> ``File Paths`` --> ``Asset Libraries``
-5. Set as Import Method ``Append`` (without Reuse)
+4. Go to `Edit` --> `Preferences` --> `File Paths` --> `Asset Libraries`
+5. Set as Import Method `Append` (without Reuse)
 6. Save preferences
 7. Open a window with asset browser: you now have a huge library of scientific models!
 
-![AssetLibrary_CGFigures](assets/img/AssetLibrary_CGFigures.png)
+![AssetLibrary_CGFigures](assets/images/AssetLibrary_CGFigures.png)
 
 Of course there is also a tutorial on how to use the library in your project:
 
@@ -66,4 +66,5 @@ Of course there is also a tutorial on how to use the library in your project:
 
 <br/>
 <br/>
+
 
