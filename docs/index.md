@@ -6,7 +6,7 @@ reel_youtubeId: eoY1Mc70uTo
 ---
 
 
-# Blender for scientists
+# Blender 4 for scientists
 
 Blender is a software with a steep learning curve and the first hours of hands-on can be traumatic. 
 
