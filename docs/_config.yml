@@ -74,12 +74,12 @@ mermaid:
 color_scheme: dark
 
 # Aux links for the upper right navigation
-aux_links:
-  "Blender4Science on GitHub":
-    - "//github.com/tucano/blender4science"
+aux_links:  
+  "About":
+    - "/blender4science/about"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: true
+aux_links_new_tab: false
 
 # Footer last edited timestamp
 #last_edit_timestamp: false # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
