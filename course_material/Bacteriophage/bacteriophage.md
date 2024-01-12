@@ -22,7 +22,7 @@
 - Radius 0.12
 - Height 0.06
 - Go to Data - Geometry - Bevel and set depth to 0.035
-- Add the collar and baseplate, a cylinder with 64 vertex, Radius .2 and depth .1. 
+- Add baseplate, a cylinder with 64 vertex, Radius .2 and depth .1. 
 - Edit mode edge and select edge loops top and bottom `ALT-LMB` and the `CTRL-ALT-LMB`
 - `CTRL-B` and Bevel increasing steps with mouse wheel
 - Duplicate for collar
