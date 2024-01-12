@@ -67,4 +67,25 @@ Reference:
 
     ![bacteriophage body](../../assets/images/bacteriophage_body_and_head.png)    
 
-21. 
+21. Join collar and head: select collar in the Outliner, `SHIFT-LMB` to select also head. Contextual menu with `RMB` and Join (shortcut: `CTRL-J`)
+22. Select Sheath and `F3` convert to mesh (or `Object` --> `Convert` --> `Mesh`)
+23. In `Properties` --> `Modifiers` Add simple deform modifier to the Sheath
+24. Bend `0` degrees
+25. Test the bending changing the bend value and the axis. 
+26. We need to connect the head now
+27. Select Sheat and go to Edit mode with `TAB`
+28. select 3 top vertex in the middle line of coil
+
+    ![three vertex](../../assets/images/three_top_vertex.png)    
+
+29. `CTRL` click Head
+30. `CTRL-P` and make vertex parent
+31. Test the bending changing the bend value and the axis. Head should Bend with Sheat
+
+    ![bending](../../assets/images/bacteriophage_bending.png)
+
+32. `SHIFT-S` and move cursor to origin
+33. With `SHIFT-A` add and Empty object to origin named it BendPivot
+34. Set as Origin for the bend modifier, now we can rotate and bend!
+35. In the Outliner, hide the Virus collection (eye icon)
+36. 
