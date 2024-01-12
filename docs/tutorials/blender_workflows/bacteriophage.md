@@ -88,4 +88,72 @@ Reference:
 33. With `SHIFT-A` add and Empty object to origin named it BendPivot
 34. Set as Origin for the bend modifier, now we can rotate and bend!
 35. In the Outliner, hide the Virus collection (eye icon)
-36. 
+36. Go to front orthographic view to make the Long Tail Fibers (legs)
+37. `SHIFT-A` --> `Curve` --> `Point`
+38. You are now in Edit Mode press `E` to add a point for mid leg, press `E` again for second point
+
+    ![leg](../../assets/images/bacteriophage_leg.png)
+
+39. Select mid point
+40. `N` Edit Fillet/Chamfer
+41. In `Properties` --> `Data`, Set Geometry Bevel to `0.035`
+42. Go back to Object Mode with `TAB` and convert leg to mesh with `F3`
+43. Select edgee loop at the end with `ALT-LMB` press `F` to close
+44. `3` for face select and extrude the new face, `LMB` to confirm
+45. `S0` to scale at `0` the tip of the leg
+46. Go back to object mode and activate visibility for the virus collection
+47. Scale the leg with `S`
+48. In Outlier move leg to virus collection with `M`
+49. Go to Object mode and select leg
+50. With leg selected and in Object Mode, `SHIFT-S` and move cursor to selected
+51. `SHIFT-A` and add an Armature
+52. Enter edit mode position top of bone in the middle of leg with `G`
+53. Extrude and put at end of second bone at the tip of the leg
+
+    ![leg with bone](../../assets/images/bacteriophage_leg_bone.png)
+
+54. Back to Object Mode
+55. Select leg
+56. `CTRL-LMB` select armature
+57. `CTRL-P` parent leg to Armature with Automatic weights
+58. In `Properties` --> `Object` set bones Object properties display as wire
+59. Move armature to virus collection
+60. We now have a rigged leg! Go to Pose Mode, select bones and test the leg poses
+61. Go back to Object Mode
+62. Select Sheat, `CTRL` select Bend pivot and parent with `CTRl-P`
+63. Parent Bend pivot to baseplate. Current objects parenting:
+
+    ```mermaid
+    graph TD;
+        Baseplate-->Sheat-->Head;
+    ```
+
+64. `SHIFT-S` cursor to world origin
+65. `SHIFT-A` inside Virus collection add an empty sphere with radius `0.5`. Name the object "virus" (model control point)
+66. Parent baseplate to control point: `LMB`select baseplate, `CTRL-LMB` select virus control point, `CTRL-P` and parent object.
+67. Current objects parenting:
+
+    ```mermaid
+    graph TD;
+        Virus-->Baseplate-->Sheat-->Head;
+    ```
+
+68. Go on top view with `NumPad 7` or navigation gizmo
+69. Parent rigged leg to baseplate:
+
+    ```mermaid
+    graph TD;
+        Virus-->Baseplate-->Sheat-->Head;
+        Baseplate-->Armature-->Leg
+    ```
+
+    ![object structure](../../assets/images/virus_structure.png)
+
+70. Transform orientations to 3D cursor on top of 3D Viewport
+
+    ![object transform orientation cursor](../../assets/images/transform_cursor.png)
+
+71. Select Armature and Leg (with `CTRL` cick), Duplicate with `D` and Rotate 45 with `R45`
+
+
+[bacteriophage.blend](https://github.com/tucano/blender4science/raw/main/course_material/Bacteriophage/bacteriophage.blend)
