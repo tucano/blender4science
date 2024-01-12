@@ -104,7 +104,7 @@ Reference:
 46. Go back to object mode and activate visibility for the virus collection
 47. Scale the leg with `S`
 48. In Outlier move leg to virus collection with `M`
-49. Go to Object mode and select leg
+49. Go to Object mode and select leg, move in position with `GX`     
 50. With leg selected and in Object Mode, `SHIFT-S` and move cursor to selected
 51. `SHIFT-A` and add an Armature
 52. Enter edit mode position top of bone in the middle of leg with `G`
@@ -147,13 +147,10 @@ Reference:
         Baseplate-->Armature-->Leg
     ```
 
-    ![object structure](../../assets/images/virus_structure.png)
+    ![object structure](../../assets/images/virus_strcture.png)
 
-70. Transform orientations to 3D cursor on top of 3D Viewport
-
-    ![object transform orientation cursor](../../assets/images/transform_cursor.png)
-
+70. Transform Pivot Point to 3D cursor on top of 3D Viewport
 71. Select Armature and Leg (with `CTRL` cick), Duplicate with `D` and Rotate 45 with `R45`
 
 
-[bacteriophage.blend](https://github.com/tucano/blender4science/raw/main/course_material/Bacteriophage/bacteriophage.blend)
+Blender file: [bacteriophage.blend](https://github.com/tucano/blender4science/raw/main/course_material/Bacteriophage/bacteriophage.blend)
