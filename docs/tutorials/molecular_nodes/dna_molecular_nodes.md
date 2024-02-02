@@ -14,7 +14,7 @@ nav_order: 1
  * Molecular Nodes installed
 
 
-### WORKFLOW
+### Workflow
 
 1. As usual we delete the cube with `X`
 2. Go to top orthographic view `Numpad 7`
