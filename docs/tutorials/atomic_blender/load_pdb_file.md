@@ -39,3 +39,6 @@ nav_order: 1
 16. `CTRL-B` to bevel, move mouse, mouse wheel to increse segmentation
 17. With plane selected `Object` --> `Shade smooth`
 18. Render your molecule!
+
+Blender file: [load.blend](https://github.com/tucano/blender4science/raw/main/course_material/Atomic_Blender/01_load_pdb/01_load_pdb.blend)
+

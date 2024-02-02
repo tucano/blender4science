@@ -72,3 +72,5 @@ Sometimes you get DivisionByZero, try to use a different converter.
     - Go to frame 120
     - Rotate again on Z axis 360
 25. Render animation (EEVE)
+
+Blender file: [02_fix_pdb_complete.blend](https://github.com/tucano/blender4science/raw/main/course_material/Atomic_Blender/02_fix_pdb/02_fix_pdb_complete.blend)
